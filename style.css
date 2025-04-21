@@ -57,3 +57,21 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container-sobre{
+    margin-top: 25px;
+    color: #fff;
+    font-family: "Cabin", sans-serif;
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-sobre h2{
+    border-bottom: solid 1px #fff;
+    width: 20%;
+    margin-left: 1rem;
+    text-align: center;
+}
