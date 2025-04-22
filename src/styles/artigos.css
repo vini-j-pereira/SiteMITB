@@ -88,15 +88,16 @@ header{
 
 .container-artigos{
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 .content-artigos{
     width: 90%;
     height: auto;
     background-color: #201f1f;
-    margin-bottom: 50px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -116,7 +117,14 @@ header{
 
 .box-artigos img{
     width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
     border-radius: 10px;
+}
+
+.box-txt{
+    width: 100%;
 }
 
 .box-txt h3{
@@ -154,4 +162,16 @@ header{
 
 .btn-box button:hover{
     transform: scale(1.05);
+}
+
+.navegacao-artigos{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#btn-anterior, #btn-proximo{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
 }

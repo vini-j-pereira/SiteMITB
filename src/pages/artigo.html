@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/src/styles/artigos.css">
+    <link rel="stylesheet" href="/src/styles/artigo.css">
     <title>Man In The Block</title>
 </head>
 <body>
@@ -18,29 +19,22 @@
         </div>
         <nav class="nav-menu">
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html">Sobre</a></li>
-                <li><a href="#">Artigos</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="/src/pages/artigos.html">Artigos</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-        
     </header>
-    <div class="container-logo">
-        <img src="/src/image/Block-logo.png" alt="Logo">
-        <h2>Artigos</h2>
-    </div>
-    <section class="container-artigos">
-        <div class="content-artigos" id="artigos-container">
-        
-               
-        </div>
-        <div class="navegacao-artigos">
-            <button id="btn-anterior">◀ Anterior</button>
-            <button id="btn-proximo">Próximo ▶</button>
+    <section class="container-artigo">
+        <img id="imagem" src="" alt="imagem do artigo">
+        <h1 id="titulo"></h1>
+        <div class="data"><p id="data"></p></div>
+        <div id="texto">
+            
         </div>
     </section>
-    
-    <script src="/src/js/artigos.js"></script>
+
+    <script src="/src/js/artigo.js"></script>
 </body>
 </html>
