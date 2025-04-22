@@ -14,7 +14,7 @@ async function carregarArtigo() {
     document.getElementById('titulo').textContent = artigo.titulo;
     document.getElementById('imagem').src = artigo.imagem;
     document.getElementById('data').textContent = `Publicado em: ${artigo.data}`;
-    document.getElementById('texto').textContent = artigo.texto;
+    document.getElementById('texto').innerHTML = artigo.texto;
   }
   
   carregarArtigo();

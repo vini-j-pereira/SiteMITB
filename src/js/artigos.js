@@ -7,7 +7,7 @@ const btnAnterior = document.getElementById('btn-anterior');
 const btnProximo = document.getElementById('btn-proximo');
 
 async function carregarArtigos() {
-  const resposta = await fetch('/src/data/artigos.json'); // ajuste o caminho se necessário
+  const resposta = await fetch('/src/data/artigos.json');
   artigos = await resposta.json();
   exibirArtigos();
 }
